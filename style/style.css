@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: #000;
+}
+
+header{
+  display: flex;
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+  
+}
+
+.peFlag{
+  height: 32%;
+  width: 30%;
+  background-image: url(/img/bandeiraDePe.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  align-content: center;
+}
+
+
+
+header .menu{
+  border: 1px solid  black;
+  height: 100%;
+  width: 100%;
+  background-color: #2891f4;
+  color:#FFFFFF;
+  padding: 10px;  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 20px;
+  font-size: 20px;
+  width: 300px;
+  list-style: none;
+}
+
+ul li {
+  color: #FFFFFF;
+  background-color: #ec1f14;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  
+}
+
+
+
+main{
+  
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(127, 255, 212, 0.122);
+}
+
+.recifeposter img{
+  display: none;
+}
+
+.recifeposter, h1{
+  display: none;
+}
+
+.conteiner h3{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.conteiner .cards{
+  
+  display: flex;
+  justify-content: center;
+  gap: 20px;    
+}
+
+.cards{
+  
+  padding: 10%;
+  flex-direction: column;
+}
+
+.cards p{
+  display: flex;
+  border: 1px solid #19191965;
+  border-radius: 50px;
+  padding: 20px;
+  height: 100%;
+  text-align: justify;
+}
+
+
+footer{
+  
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+}
+
+div h4{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.social{
+  
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  gap: 20px;
+}
+
+.linkedin{
+  display: flex;
+  
+  justify-content: center;
+}
+
+.github{
+  display: flex;
+  justify-content: center;
+}
+
+.link{
+  display: flex;  
+  justify-content: center;
+}
+
+
+@media screen and (min-width: 425px){
+  html{
+      font-size: 18px;
+  }
+
+  header .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 500px;
+    height: 85%;
+  }
+
+  .menu .peFlag{
+    background-image: url(/img/bandeiraDePeMaior.png);
+    height: 90%;
+    max-width: 100%;
+    
+  }
+  .menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 30px;
+     
+  }
+
+  main{
+    display: block;
+    flex-direction:column;   
+  }
+  
+  .recifeposter{
+    background-image: url(/img/bomJesus.jpg);
+    display: flex;
+    
+    height: 1000px;
+    width: 100%;
+    align-items: center;
+    justify-content:flex-end;
+  }
+
+  h1{
+    display: flex;
+    color: black;
+    background-color: #ffffffb3;
+    padding: 20px;
+  }
+
+  .conteiner h3{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    font-size: 50px;
+  }
+
+  .conteiner .cards{
+    
+    display: flex;
+    align-items: stretch;
+    gap: 40px;    
+  }
+  
+  .cards{
+    padding: 10%;
+    flex-direction:row;
+  }
+  
+  .cards p{
+    display: flex;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 40px;
+    height: 300px;
+    text-align: justify;
+  }
+
+  main .video{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    height: 500px;
+  }
+
+  iframe{
+    width: 50%;
+  }
+
+
+  footer{
+    display: flex;
+    flex-direction:column;
+    background-color: rgba(113, 172, 234, 0.659);
+    height: 200px;
+  }
+
+  footer h4{
+    margin-left: 20px;
+    justify-content: flex-start;
+    margin-top: 20px;
+    
+  }
+
+  footer .social{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+  }
+
+ .link, a{
+    text-decoration: none;
+  }
+  
+}
