@@ -98,9 +98,15 @@ h1 {
   text-align: justify;
 }
 
+.video {
+  display: flex;
+  justify-content: center;
+}
+
 footer {
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
   height: 300px;
 }
 
