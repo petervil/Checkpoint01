@@ -235,16 +235,11 @@ div h4 {
     height: 200px;
   }
 
-  footer h4 {
-    margin-left: 20px;
-    justify-content: flex-start;
-    margin-top: 20px;
-  }
-
   footer .social {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 40px;
   }
 
   .link,
